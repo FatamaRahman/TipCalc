@@ -2,7 +2,7 @@
 //  SettingsViewController.swift
 //  Tips
 //
-//  Created by Tasfia Addrita on 12/31/15.
+//  Created by Fatama Rahman on 12/31/15.
 //  Copyright © 2015 codepath. All rights reserved.
 //
 
