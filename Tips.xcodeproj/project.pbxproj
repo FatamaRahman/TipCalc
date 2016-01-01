@@ -156,6 +156,8 @@
 		CDC0EEFC1C34836E00F59B77 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftMigration = 0720;
+				LastSwiftUpdateCheck = 0720;
 				LastUpgradeCheck = 0640;
 				ORGANIZATIONNAME = codepath;
 				TargetAttributes = {
@@ -411,6 +413,7 @@
 				CDC0EF251C34836F00F59B77 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CDC0EF261C34836F00F59B77 /* Build configuration list for PBXNativeTarget "TipsTests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +422,7 @@
 				CDC0EF281C34836F00F59B77 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
