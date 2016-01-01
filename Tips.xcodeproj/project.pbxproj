@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C99F102F1C36115600A3B0D3 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C99F102E1C36115600A3B0D3 /* SettingsViewController.swift */; };
 		CDC0EF0A1C34836F00F59B77 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDC0EF091C34836F00F59B77 /* AppDelegate.swift */; };
 		CDC0EF0C1C34836F00F59B77 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDC0EF0B1C34836F00F59B77 /* ViewController.swift */; };
 		CDC0EF0F1C34836F00F59B77 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDC0EF0D1C34836F00F59B77 /* Main.storyboard */; };
@@ -26,6 +27,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C99F102E1C36115600A3B0D3 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		CDC0EF041C34836E00F59B77 /* Tips.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tips.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDC0EF081C34836F00F59B77 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CDC0EF091C34836F00F59B77 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -80,6 +82,7 @@
 				CDC0EF091C34836F00F59B77 /* AppDelegate.swift */,
 				CDC0EF0B1C34836F00F59B77 /* ViewController.swift */,
 				CDC0EF0D1C34836F00F59B77 /* Main.storyboard */,
+				C99F102E1C36115600A3B0D3 /* SettingsViewController.swift */,
 				CDC0EF101C34836F00F59B77 /* Images.xcassets */,
 				CDC0EF121C34836F00F59B77 /* LaunchScreen.xib */,
 				CDC0EF071C34836E00F59B77 /* Supporting Files */,
@@ -158,7 +161,7 @@
 			attributes = {
 				LastSwiftMigration = 0720;
 				LastSwiftUpdateCheck = 0720;
-				LastUpgradeCheck = 0640;
+				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = codepath;
 				TargetAttributes = {
 					CDC0EF031C34836E00F59B77 = {
@@ -216,6 +219,7 @@
 			files = (
 				CDC0EF0C1C34836F00F59B77 /* ViewController.swift in Sources */,
 				CDC0EF0A1C34836F00F59B77 /* AppDelegate.swift in Sources */,
+				C99F102F1C36115600A3B0D3 /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,6 +282,7 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -345,6 +350,7 @@
 				INFOPLIST_FILE = Tips/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.codepath.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -356,6 +362,7 @@
 				INFOPLIST_FILE = Tips/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.codepath.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -374,6 +381,7 @@
 				);
 				INFOPLIST_FILE = TipsTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.codepath.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tips.app/Tips";
 			};
@@ -389,6 +397,7 @@
 				);
 				INFOPLIST_FILE = TipsTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.codepath.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tips.app/Tips";
 			};
